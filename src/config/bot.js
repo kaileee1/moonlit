@@ -11,7 +11,7 @@ export const botConfig = {
   // - "invisible" = appears offline
   presence: {
     // Current online state shown on Discord.
-    status: "online",
+    status: "idle",
 
     // Activity lines shown under the bot name.
     // `type` number mapping from Discord:
@@ -66,9 +66,9 @@ export const botConfig = {
 
     // Embed colors by application status.
     statusColors: {
-      pending: "#FFA500",
-      approved: "#00FF00",
-      denied: "#FF0000",
+      pending: "#ffe8e8",
+      approved: "#ffe8e8",
+      denied: "#ffe8e8",
     },
 
     // How long users must wait before submitting another application (hours).
@@ -91,14 +91,14 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699",
-      secondary: "#2F3136",
+      primary: "#ffe8e8",
+      secondary: "#ffe8e8",
 
       // Standard status colors for success/error/warning/info messages.
-      success: "#57F287",
-      error: "#ED4245",
-      warning: "#FEE75C",
-      info: "#3498DB",
+      success: "#ffe8e8",
+      error: "#ffe8e8",
+      warning: "#ffe8e8",
+      info: "#ffe8e8",
 
       // Neutral utility colors.
       light: "#FFFFFF",
@@ -115,8 +115,8 @@ export const botConfig = {
 
       // Feature-specific colors.
       giveaway: {
-        active: "#57F287",
-        ended: "#ED4245",
+        active: "#ffe8e8",
+        ended: "#ffe8e8",
       },
       ticket: {
         open: "#57F287",
